@@ -16,9 +16,12 @@ const layout = {
 };
 
 const splitTuple = (data) => {
-    data = data.replaceAll("(", "").replaceAll(")", "");
-    data = data.split(",").map(ele => parseFloat(ele)).reduce((partialSum, a) => partialSum + a, 0);
-    return data
+  data = data.replaceAll("(", "").replaceAll(")", "");
+  data = data
+    .split(",")
+    .map((ele) => parseFloat(ele))
+    .reduce((partialSum, a) => partialSum + a, 0);
+  return data;
 };
 
 export default ({ data }) => {
@@ -85,12 +88,31 @@ export default ({ data }) => {
               {
                 x: ele.result.map((el) => parseFloat(el["CDWT"])),
                 y: ele.result.map((el) => parseFloat(el["CoP"])),
-                text: ele.result.map((el) => `Count: ${el["Count"]}<br>CT_Total: ${splitTuple(el["CT_Seq"])}`),
+                text: ele.result.map(
+                  (el) =>
+                    `Count: ${el["Count"]}<br>CT_Energy: ${splitTuple(
+                      el["CT_Seq"]
+                    )}`
+                ),
                 // type: "bar",
                 marker: {
-                    size: ele.result.map((el) => ((parseFloat(el["Count"])+2)*3)),
-                    color: ele.result.map(el => splitTuple(el["CT_Seq"])),
-                    colorbar: { title: "CT_Total", titleside: "Top" },
+                  size: ele.result.map(
+                    (el) => (parseFloat(el["Count"]) + 2) * 3
+                  ),
+                  color: ele.result.map((el) => splitTuple(el["CT_Seq"])),
+                  colorbar: { title: "CT_Energy", titleside: "Top" },
+                  colorscale: [
+                    ["0.0", "rgb(165,0,38)"],
+                    ["0.111111111111", "rgb(215,48,39)"],
+                    ["0.222222222222", "rgb(244,109,67)"],
+                    ["0.333333333333", "rgb(253,174,97)"],
+                    ["0.444444444444", "rgb(254,224,144)"],
+                    ["0.555555555556", "rgb(224,243,248)"],
+                    ["0.666666666667", "rgb(171,217,233)"],
+                    ["0.777777777778", "rgb(116,173,209)"],
+                    ["0.888888888889", "rgb(69,117,180)"],
+                    ["1.0", "rgb(49,54,149)"],
+                  ],
                 },
                 mode: "markers",
               },

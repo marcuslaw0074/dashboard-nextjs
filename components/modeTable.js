@@ -7,9 +7,7 @@ import Link from 'next/link';
 import Router, { useRouter } from 'next/router';
 
 var dataJson = require("../assets/DemoData.json");
-// var dataJson = require("./modeTableData.json");
 
-// dataJson = demoJson
 
 const replaceDemo = (demoJson, newJson) => {
   return demoJson.map((ele, index) => newJson.map((ele2, index) => ele2))
@@ -46,6 +44,7 @@ var trace = {
     ele["Count"]===0?0:(ele["Count"] + 20)/2
     ),
     colorbar: { title: "CoP", titleside: "Top" },
+    colorscale: 'YlGnBu',
   },
 };
 
