@@ -6,7 +6,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Router, { useRouter } from 'next/router';
 
-var dataJson = require("./DemoData.json");
+var dataJson = require("../assets/DemoData.json");
 // var dataJson = require("./modeTableData.json");
 
 // dataJson = demoJson
@@ -17,7 +17,7 @@ const replaceDemo = (demoJson, newJson) => {
 
 const Plot = createPlotComponent(plotly);
 
-const layout2 = {
+const layout = {
   width: 1200,
   height: 800,
   title: "Mode Table",
@@ -29,12 +29,11 @@ const alertFunction = (data) => {
               "Wet Bulb Temp:", data.points[0].y, "\n", 
               "CoP :", data.points[0]["marker.color"], "\n", 
               )
-  Router.push(`/analytics/test?coolingload=${data.points[0].x}&wetbulb=${data.points[0].y}`)
+  Router.push(`/analytics/test?CL_bin=${data.points[0].x}&WB_bin=${data.points[0].y}`)
   // alert('data:\n\n'+data[0]);
 }
 
-var trace1 = {
-  // xaxis: [...new Set(dataJson.map((ele) => ele["CL_bin"]))].reverse(),
+var trace = {
   x: dataJson.map((ele) => ele["CL_bin"]),
   y: dataJson.map((ele) => ele["WB_bin"]),
   mode: "markers",
@@ -50,6 +49,6 @@ var trace1 = {
   },
 };
 
-var data = [trace1];
+var data = [trace];
 
-export default () => <Plot data={data} layout={layout2} onClick={alertFunction}/>;
+export default () => <Plot data={data} layout={layout} onClick={alertFunction}/>;

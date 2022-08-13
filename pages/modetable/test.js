@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 
-const DynamicPlot = dynamic(import('../../components/plot'), {
+const DynamicPlot = dynamic(import('../../components/modeTable'), {
   ssr: false
 })
 
