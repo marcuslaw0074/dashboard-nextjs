@@ -1,0 +1,1355 @@
+[{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(16.5, 17.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(16.0, 16.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(17.0, 17.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(17.5, 18.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(18.0, 18.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(18.5, 19.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(19.0, 19.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(19.5, 20.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(20.0, 20.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(20.5, 21.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(21.0, 21.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(21.5, 22.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(22.0, 22.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(22.5, 23.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(23.0, 23.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(23.5, 24.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(24.0, 24.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(24.5, 25.0]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},{
+  "CL_bin": "(8000, 9000]",
+  "WB_bin": "(25.0, 25.5]",
+  "Text": "",
+  "Count": 0,
+  "CoP_mean": null
+},
+  {
+    "CL_bin": "(8000, 9000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 01/7</b><br>    AP_mean: 3.266<br>    CoP_mean: 2.697<br>    Q1, Q3: 2.697, 2.701<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 2.697274724556051
+  },
+  {
+    "CL_bin": "(8000, 9000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 4.259<br>    CoP_mean: 2.918<br>    Q1, Q3: 2.918, 3.003<br>    Count: 2<br><br><b>Strategy: 10/7</b><br>    AP_mean: 2.829<br>    CoP_mean: 2.778<br>    Q1, Q3: 2.778, 2.815<br>    Count: 2<br><br>",
+    "Count": 4,
+    "CoP_mean": 2.848105331045005
+  },
+  {
+    "CL_bin": "(8000, 9000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 01/7</b><br>    AP_mean: 2.637<br>    CoP_mean: 2.64<br>    Q1, Q3: 2.64, 2.641<br>    Count: 2<br><br><b>Strategy: 10/5</b><br>    AP_mean: 3.959<br>    CoP_mean: 3.125<br>    Q1, Q3: 3.125, 3.162<br>    Count: 3<br><br><b>Strategy: 10/6</b><br>    AP_mean: 2.733<br>    CoP_mean: 2.958<br>    Q1, Q3: 2.958, 2.962<br>    Count: 2<br><br>",
+    "Count": 7,
+    "CoP_mean": 2.938541862907298
+  },
+  {
+    "CL_bin": "(8000, 9000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.846<br>    CoP_mean: 3.155<br>    Q1, Q3: 3.155, 3.342<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.1553964953958804
+  },
+  {
+    "CL_bin": "(8000, 9000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 1.8<br>    CoP_mean: 3.013<br>    Q1, Q3: 3.013, 3.103<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.012779533334243
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(17.0, 17.5]",
+    "Text": "<b>Strategy: 01/1</b><br>    AP_mean: 7.129<br>    CoP_mean: 4.583<br>    Q1, Q3: 4.583, 4.697<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 4.583152392900597
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 3.986<br>    CoP_mean: 2.858<br>    Q1, Q3: 2.858, 2.892<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 2.8575946441693008
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 4.254<br>    CoP_mean: 2.979<br>    Q1, Q3: 2.979, 3.026<br>    Count: 4<br><br><b>Strategy: 10/7</b><br>    AP_mean: 4.128<br>    CoP_mean: 2.916<br>    Q1, Q3: 2.916, 2.951<br>    Count: 14<br><br>",
+    "Count": 18,
+    "CoP_mean": 2.929950650290864
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 10/4</b><br>    AP_mean: 4.057<br>    CoP_mean: 3.256<br>    Q1, Q3: 3.256, 3.353<br>    Count: 2<br><br><b>Strategy: 10/5</b><br>    AP_mean: 4.331<br>    CoP_mean: 3.177<br>    Q1, Q3: 3.177, 3.216<br>    Count: 12<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.742<br>    CoP_mean: 2.799<br>    Q1, Q3: 2.799, 2.821<br>    Count: 3<br><br><b>Strategy: 10/7</b><br>    AP_mean: 4.329<br>    CoP_mean: 2.885<br>    Q1, Q3: 2.885, 2.963<br>    Count: 32<br><br>",
+    "Count": 49,
+    "CoP_mean": 2.966378929314472
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 10/4</b><br>    AP_mean: 3.574<br>    CoP_mean: 3.224<br>    Q1, Q3: 3.224, 3.279<br>    Count: 3<br><br><b>Strategy: 10/5</b><br>    AP_mean: 3.776<br>    CoP_mean: 3.003<br>    Q1, Q3: 3.003, 3.135<br>    Count: 18<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.413<br>    CoP_mean: 2.96<br>    Q1, Q3: 2.96, 3.012<br>    Count: 3<br><br><b>Strategy: 10/7</b><br>    AP_mean: 4.123<br>    CoP_mean: 2.893<br>    Q1, Q3: 2.893, 3.012<br>    Count: 15<br><br>",
+    "Count": 39,
+    "CoP_mean": 2.9744724412078383
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.728<br>    CoP_mean: 2.966<br>    Q1, Q3: 2.966, 3.084<br>    Count: 13<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.234<br>    CoP_mean: 3.051<br>    Q1, Q3: 3.051, 3.072<br>    Count: 2<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.785<br>    CoP_mean: 2.775<br>    Q1, Q3: 2.775, 2.801<br>    Count: 8<br><br>",
+    "Count": 23,
+    "CoP_mean": 2.9071524474946955
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.017<br>    CoP_mean: 3.104<br>    Q1, Q3: 3.104, 3.155<br>    Count: 8<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.22<br>    CoP_mean: 3.09<br>    Q1, Q3: 3.09, 3.109<br>    Count: 2<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.422<br>    CoP_mean: 2.747<br>    Q1, Q3: 2.747, 2.751<br>    Count: 3<br><br>",
+    "Count": 13,
+    "CoP_mean": 3.0192411847183087
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(28.0, 28.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.904<br>    CoP_mean: 2.891<br>    Q1, Q3: 2.891, 2.969<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 2.8910842860376262
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(28.5, 29.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.393<br>    CoP_mean: 2.728<br>    Q1, Q3: 2.728, 2.7<br>    Count: 6<br><br>",
+    "Count": 6,
+    "CoP_mean": 2.728422482312686
+  },
+  {
+    "CL_bin": "(9000, 10000]",
+    "WB_bin": "(29.0, 29.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 1.893<br>    CoP_mean: 2.674<br>    Q1, Q3: 2.674, 2.675<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 2.6736512001331123
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(17.5, 18.0]",
+    "Text": "<b>Strategy: 01/2</b><br>    AP_mean: 4.208<br>    CoP_mean: 4.769<br>    Q1, Q3: 4.769, 5.006<br>    Count: 2<br><br><b>Strategy: 10/1</b><br>    AP_mean: 7.603<br>    CoP_mean: 4.721<br>    Q1, Q3: 4.721, 4.651<br>    Count: 5<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.734494707247693
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(20.5, 21.0]",
+    "Text": "<b>Strategy: 10/3</b><br>    AP_mean: 2.654<br>    CoP_mean: 4.446<br>    Q1, Q3: 4.446, 4.474<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.446037230712799
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 2.26<br>    CoP_mean: 3.715<br>    Q1, Q3: 3.715, 3.718<br>    Count: 2<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.068<br>    CoP_mean: 3.361<br>    Q1, Q3: 3.361, 3.441<br>    Count: 3<br><br>",
+    "Count": 5,
+    "CoP_mean": 3.5026447974549697
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 2.706<br>    CoP_mean: 3.478<br>    Q1, Q3: 3.478, 3.545<br>    Count: 7<br><br>",
+    "Count": 7,
+    "CoP_mean": 3.4776625621557744
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 2.392<br>    CoP_mean: 3.432<br>    Q1, Q3: 3.432, 3.552<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.432421439021901
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.243<br>    CoP_mean: 3.524<br>    Q1, Q3: 3.524, 3.632<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.523610185832794
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.882<br>    CoP_mean: 3.302<br>    Q1, Q3: 3.302, 3.351<br>    Count: 2<br><br><b>Strategy: 10/6</b><br>    AP_mean: 4.522<br>    CoP_mean: 3.227<br>    Q1, Q3: 3.227, 3.258<br>    Count: 2<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.2644274529773685
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 4.107<br>    CoP_mean: 3.347<br>    Q1, Q3: 3.347, 3.426<br>    Count: 7<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.126<br>    CoP_mean: 3.012<br>    Q1, Q3: 3.012, 3.082<br>    Count: 22<br><br>",
+    "Count": 29,
+    "CoP_mean": 3.0929042009546004
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 10/4</b><br>    AP_mean: 3.703<br>    CoP_mean: 3.417<br>    Q1, Q3: 3.417, 3.514<br>    Count: 8<br><br><b>Strategy: 10/5</b><br>    AP_mean: 4.311<br>    CoP_mean: 3.308<br>    Q1, Q3: 3.308, 3.361<br>    Count: 24<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.749<br>    CoP_mean: 3.021<br>    Q1, Q3: 3.021, 3.081<br>    Count: 12<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.273<br>    CoP_mean: 2.968<br>    Q1, Q3: 2.968, 3.019<br>    Count: 12<br><br>",
+    "Count": 56,
+    "CoP_mean": 3.189183926278859
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 10/4</b><br>    AP_mean: 3.468<br>    CoP_mean: 3.335<br>    Q1, Q3: 3.335, 3.445<br>    Count: 9<br><br><b>Strategy: 10/5</b><br>    AP_mean: 3.849<br>    CoP_mean: 3.276<br>    Q1, Q3: 3.276, 3.36<br>    Count: 53<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.423<br>    CoP_mean: 3.25<br>    Q1, Q3: 3.25, 3.338<br>    Count: 9<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.419<br>    CoP_mean: 2.907<br>    Q1, Q3: 2.907, 2.935<br>    Count: 3<br><br>",
+    "Count": 74,
+    "CoP_mean": 3.265010533354424
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 10/4</b><br>    AP_mean: 2.646<br>    CoP_mean: 3.531<br>    Q1, Q3: 3.531, 3.578<br>    Count: 4<br><br><b>Strategy: 10/5</b><br>    AP_mean: 3.823<br>    CoP_mean: 3.244<br>    Q1, Q3: 3.244, 3.325<br>    Count: 59<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.099<br>    CoP_mean: 3.254<br>    Q1, Q3: 3.254, 3.273<br>    Count: 12<br><br>",
+    "Count": 75,
+    "CoP_mean": 3.2606201404809623
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.568<br>    CoP_mean: 3.217<br>    Q1, Q3: 3.217, 3.336<br>    Count: 24<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.124<br>    CoP_mean: 3.235<br>    Q1, Q3: 3.235, 3.282<br>    Count: 6<br><br>",
+    "Count": 30,
+    "CoP_mean": 3.2203382617514023
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(28.0, 28.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.199<br>    CoP_mean: 3.056<br>    Q1, Q3: 3.056, 3.075<br>    Count: 16<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.35<br>    CoP_mean: 3.152<br>    Q1, Q3: 3.152, 3.192<br>    Count: 5<br><br>",
+    "Count": 21,
+    "CoP_mean": 3.07883002616256
+  },
+  {
+    "CL_bin": "(10000, 11000]",
+    "WB_bin": "(28.5, 29.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.717<br>    CoP_mean: 3.1<br>    Q1, Q3: 3.1, 3.147<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.1001011665187974
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(16.0, 16.5]",
+    "Text": "<b>Strategy: 01/1</b><br>    AP_mean: 6.659<br>    CoP_mean: 4.982<br>    Q1, Q3: 4.982, 5.05<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.982478593798114
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(17.5, 18.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 7.423<br>    CoP_mean: 4.644<br>    Q1, Q3: 4.644, 4.686<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.644250242381842
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(18.0, 18.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 5.619<br>    CoP_mean: 4.681<br>    Q1, Q3: 4.681, 4.768<br>    Count: 6<br><br>",
+    "Count": 6,
+    "CoP_mean": 4.681486478679997
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(18.5, 19.0]",
+    "Text": "<b>Strategy: 10/2</b><br>    AP_mean: 3.69<br>    CoP_mean: 4.898<br>    Q1, Q3: 4.898, 4.966<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.898038039337773
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(20.0, 20.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 3.99<br>    CoP_mean: 4.772<br>    Q1, Q3: 4.772, 4.792<br>    Count: 4<br><br><b>Strategy: 10/3</b><br>    AP_mean: 2.843<br>    CoP_mean: 4.645<br>    Q1, Q3: 4.645, 4.673<br>    Count: 3<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.717247352570705
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(20.5, 21.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 3.692<br>    CoP_mean: 4.799<br>    Q1, Q3: 4.799, 4.812<br>    Count: 2<br><br><b>Strategy: 10/3</b><br>    AP_mean: 2.706<br>    CoP_mean: 4.675<br>    Q1, Q3: 4.675, 4.693<br>    Count: 4<br><br>",
+    "Count": 6,
+    "CoP_mean": 4.716345799514089
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 3.27<br>    CoP_mean: 3.969<br>    Q1, Q3: 3.969, 4.057<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.969494035629164
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 3.097<br>    CoP_mean: 3.785<br>    Q1, Q3: 3.785, 3.823<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 3.784874052637788
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 2.309<br>    CoP_mean: 3.773<br>    Q1, Q3: 3.773, 3.875<br>    Count: 5<br><br><b>Strategy: 10/7</b><br>    AP_mean: 2.974<br>    CoP_mean: 3.684<br>    Q1, Q3: 3.684, 3.702<br>    Count: 2<br><br>",
+    "Count": 7,
+    "CoP_mean": 3.747303236863434
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 2.346<br>    CoP_mean: 3.46<br>    Q1, Q3: 3.46, 3.553<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.460480346881365
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 2.451<br>    CoP_mean: 3.556<br>    Q1, Q3: 3.556, 3.744<br>    Count: 10<br><br><b>Strategy: 10/7</b><br>    AP_mean: 2.736<br>    CoP_mean: 3.346<br>    Q1, Q3: 3.346, 3.362<br>    Count: 2<br><br>",
+    "Count": 12,
+    "CoP_mean": 3.5213962691609044
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 3.173<br>    CoP_mean: 3.356<br>    Q1, Q3: 3.356, 3.423<br>    Count: 10<br><br>",
+    "Count": 10,
+    "CoP_mean": 3.356225433253261
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.791<br>    CoP_mean: 3.602<br>    Q1, Q3: 3.602, 3.716<br>    Count: 3<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.405<br>    CoP_mean: 3.294<br>    Q1, Q3: 3.294, 3.52<br>    Count: 3<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.534<br>    CoP_mean: 3.317<br>    Q1, Q3: 3.317, 3.421<br>    Count: 23<br><br>",
+    "Count": 29,
+    "CoP_mean": 3.344362084536015
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.397<br>    CoP_mean: 3.386<br>    Q1, Q3: 3.386, 3.445<br>    Count: 9<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.044<br>    CoP_mean: 3.017<br>    Q1, Q3: 3.017, 3.055<br>    Count: 10<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.394<br>    CoP_mean: 3.217<br>    Q1, Q3: 3.217, 3.361<br>    Count: 33<br><br>",
+    "Count": 52,
+    "CoP_mean": 3.207931935317975
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 4.095<br>    CoP_mean: 3.374<br>    Q1, Q3: 3.374, 3.455<br>    Count: 23<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.51<br>    CoP_mean: 3.084<br>    Q1, Q3: 3.084, 3.18<br>    Count: 15<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.23<br>    CoP_mean: 3.188<br>    Q1, Q3: 3.188, 3.334<br>    Count: 37<br><br>",
+    "Count": 75,
+    "CoP_mean": 3.224191521871852
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 4.019<br>    CoP_mean: 3.395<br>    Q1, Q3: 3.395, 3.446<br>    Count: 16<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.288<br>    CoP_mean: 3.187<br>    Q1, Q3: 3.187, 3.387<br>    Count: 18<br><br><b>Strategy: 10/7</b><br>    AP_mean: 2.553<br>    CoP_mean: 3.189<br>    Q1, Q3: 3.189, 3.322<br>    Count: 11<br><br>",
+    "Count": 45,
+    "CoP_mean": 3.261403522862226
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.707<br>    CoP_mean: 3.318<br>    Q1, Q3: 3.318, 3.38<br>    Count: 21<br><br><b>Strategy: 10/6</b><br>    AP_mean: 2.823<br>    CoP_mean: 3.195<br>    Q1, Q3: 3.195, 3.375<br>    Count: 8<br><br><b>Strategy: 11/5</b><br>    AP_mean: 3.933<br>    CoP_mean: 2.732<br>    Q1, Q3: 2.732, 3.1<br>    Count: 2<br><br>",
+    "Count": 31,
+    "CoP_mean": 3.248424421566269
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.65<br>    CoP_mean: 3.298<br>    Q1, Q3: 3.298, 3.378<br>    Count: 10<br><br><b>Strategy: 10/6</b><br>    AP_mean: 3.08<br>    CoP_mean: 3.369<br>    Q1, Q3: 3.369, 3.386<br>    Count: 3<br><br>",
+    "Count": 13,
+    "CoP_mean": 3.313923417623154
+  },
+  {
+    "CL_bin": "(11000, 12000]",
+    "WB_bin": "(28.0, 28.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.163<br>    CoP_mean: 3.294<br>    Q1, Q3: 3.294, 3.399<br>    Count: 6<br><br>",
+    "Count": 6,
+    "CoP_mean": 3.2940645317526887
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(16.0, 16.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 6.787<br>    CoP_mean: 4.926<br>    Q1, Q3: 4.926, 5.017<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.925550049115226
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(16.5, 17.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 6.551<br>    CoP_mean: 5.228<br>    Q1, Q3: 5.228, 5.422<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 5.228420538773834
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(17.0, 17.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 7.216<br>    CoP_mean: 4.456<br>    Q1, Q3: 4.456, 4.499<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.4562634624158
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(17.5, 18.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 7.002<br>    CoP_mean: 4.41<br>    Q1, Q3: 4.41, 4.429<br>    Count: 2<br><br><b>Strategy: 10/2</b><br>    AP_mean: 4.779<br>    CoP_mean: 4.949<br>    Q1, Q3: 4.949, 5.082<br>    Count: 4<br><br>",
+    "Count": 6,
+    "CoP_mean": 4.768932449424452
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(18.0, 18.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 5.625<br>    CoP_mean: 4.852<br>    Q1, Q3: 4.852, 4.93<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.851806296511572
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(18.5, 19.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 5.967<br>    CoP_mean: 4.493<br>    Q1, Q3: 4.493, 4.561<br>    Count: 3<br><br><b>Strategy: 10/2</b><br>    AP_mean: 2.746<br>    CoP_mean: 5.18<br>    Q1, Q3: 5.18, 5.192<br>    Count: 2<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.767669255517005
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(19.0, 19.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 6.008<br>    CoP_mean: 4.585<br>    Q1, Q3: 4.585, 4.484<br>    Count: 5<br><br><b>Strategy: 10/2</b><br>    AP_mean: 3.048<br>    CoP_mean: 4.934<br>    Q1, Q3: 4.934, 5.062<br>    Count: 2<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.684598954010602
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(20.0, 20.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 4.35<br>    CoP_mean: 4.766<br>    Q1, Q3: 4.766, 4.793<br>    Count: 2<br><br><b>Strategy: 10/2</b><br>    AP_mean: 2.803<br>    CoP_mean: 4.713<br>    Q1, Q3: 4.713, 4.738<br>    Count: 3<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.733787739558179
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(20.5, 21.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 3.827<br>    CoP_mean: 4.885<br>    Q1, Q3: 4.885, 4.904<br>    Count: 2<br><br><b>Strategy: 10/2</b><br>    AP_mean: 2.151<br>    CoP_mean: 4.714<br>    Q1, Q3: 4.714, 4.719<br>    Count: 3<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.782242245068821
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(21.0, 21.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 3.176<br>    CoP_mean: 4.915<br>    Q1, Q3: 4.915, 4.99<br>    Count: 2<br><br><b>Strategy: 10/3</b><br>    AP_mean: 3.216<br>    CoP_mean: 4.594<br>    Q1, Q3: 4.594, 4.609<br>    Count: 2<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.754564075768324
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 10/3</b><br>    AP_mean: 2.742<br>    CoP_mean: 4.56<br>    Q1, Q3: 4.56, 4.565<br>    Count: 3<br><br><b>Strategy: 10/6</b><br>    AP_mean: 2.702<br>    CoP_mean: 4.07<br>    Q1, Q3: 4.07, 4.094<br>    Count: 2<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.363981619136236
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 10/2</b><br>    AP_mean: 3.255<br>    CoP_mean: 4.415<br>    Q1, Q3: 4.415, 4.467<br>    Count: 3<br><br><b>Strategy: 10/6</b><br>    AP_mean: 2.833<br>    CoP_mean: 3.889<br>    Q1, Q3: 3.889, 3.957<br>    Count: 4<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.114447141772575
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 2.891<br>    CoP_mean: 3.655<br>    Q1, Q3: 3.655, 3.656<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.655376847943983
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 2.334<br>    CoP_mean: 3.558<br>    Q1, Q3: 3.558, 3.647<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.557918811290114
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.199<br>    CoP_mean: 3.586<br>    Q1, Q3: 3.586, 3.619<br>    Count: 2<br><br><b>Strategy: 10/6</b><br>    AP_mean: 2.854<br>    CoP_mean: 3.591<br>    Q1, Q3: 3.591, 3.787<br>    Count: 5<br><br><b>Strategy: 10/7</b><br>    AP_mean: 2.631<br>    CoP_mean: 3.673<br>    Q1, Q3: 3.673, 3.77<br>    Count: 2<br><br>",
+    "Count": 9,
+    "CoP_mean": 3.608386956346751
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 2.37<br>    CoP_mean: 3.62<br>    Q1, Q3: 3.62, 3.698<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.620470842578396
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 3.007<br>    CoP_mean: 3.649<br>    Q1, Q3: 3.649, 3.712<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.649328813679324
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 10/5</b><br>    AP_mean: 2.027<br>    CoP_mean: 3.455<br>    Q1, Q3: 3.455, 3.475<br>    Count: 2<br><br><b>Strategy: 10/7</b><br>    AP_mean: 3.071<br>    CoP_mean: 3.447<br>    Q1, Q3: 3.447, 3.487<br>    Count: 6<br><br><b>Strategy: 11/7</b><br>    AP_mean: 3.016<br>    CoP_mean: 2.936<br>    Q1, Q3: 2.936, 3.175<br>    Count: 2<br><br>",
+    "Count": 10,
+    "CoP_mean": 3.3462579060984026
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 3.162<br>    CoP_mean: 3.38<br>    Q1, Q3: 3.38, 3.415<br>    Count: 7<br><br><b>Strategy: 11/7</b><br>    AP_mean: 3.365<br>    CoP_mean: 2.886<br>    Q1, Q3: 2.886, 3.213<br>    Count: 3<br><br>",
+    "Count": 10,
+    "CoP_mean": 3.2318017491273245
+  },
+  {
+    "CL_bin": "(12000, 13000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 3.428<br>    CoP_mean: 3.216<br>    Q1, Q3: 3.216, 3.31<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.2158234774997494
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(16.0, 16.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 8.071<br>    CoP_mean: 4.923<br>    Q1, Q3: 4.923, 5.001<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.923441381679805
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(16.5, 17.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 7.056<br>    CoP_mean: 5.012<br>    Q1, Q3: 5.012, 5.092<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 5.012152273974535
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(17.0, 17.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 6.633<br>    CoP_mean: 5.029<br>    Q1, Q3: 5.029, 5.11<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 5.028633303917038
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(18.0, 18.5]",
+    "Text": "<b>Strategy: 10/2</b><br>    AP_mean: 4.811<br>    CoP_mean: 4.953<br>    Q1, Q3: 4.953, 4.967<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.9532755300925775
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(19.0, 19.5]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 5.039<br>    CoP_mean: 5.121<br>    Q1, Q3: 5.121, 5.147<br>    Count: 2<br><br><b>Strategy: 10/2</b><br>    AP_mean: 3.82<br>    CoP_mean: 4.867<br>    Q1, Q3: 4.867, 4.963<br>    Count: 3<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.96895914797915
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 3.221<br>    CoP_mean: 3.973<br>    Q1, Q3: 3.973, 4.063<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.9729071005808976
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 10/2</b><br>    AP_mean: 3.159<br>    CoP_mean: 4.471<br>    Q1, Q3: 4.471, 4.477<br>    Count: 2<br><br><b>Strategy: 10/6</b><br>    AP_mean: 2.807<br>    CoP_mean: 4.075<br>    Q1, Q3: 4.075, 4.155<br>    Count: 2<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.272621920359528
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 2.849<br>    CoP_mean: 3.813<br>    Q1, Q3: 3.813, 3.823<br>    Count: 8<br><br>",
+    "Count": 8,
+    "CoP_mean": 3.8125756839896106
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 10/6</b><br>    AP_mean: 2.052<br>    CoP_mean: 3.955<br>    Q1, Q3: 3.955, 3.99<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.954777368128991
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 10/7</b><br>    AP_mean: 2.814<br>    CoP_mean: 3.521<br>    Q1, Q3: 3.521, 3.571<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.520890890890892
+  },
+  {
+    "CL_bin": "(13000, 14000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 11/7</b><br>    AP_mean: 3.382<br>    CoP_mean: 2.306<br>    Q1, Q3: 2.306, 2.309<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 2.306070133747
+  },
+  {
+    "CL_bin": "(14000, 15000]",
+    "WB_bin": "(18.5, 19.0]",
+    "Text": "<b>Strategy: 10/1</b><br>    AP_mean: 5.264<br>    CoP_mean: 4.848<br>    Q1, Q3: 4.848, 4.876<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.848455091632937
+  },
+  {
+    "CL_bin": "(14000, 15000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 11/7</b><br>    AP_mean: 3.624<br>    CoP_mean: 2.347<br>    Q1, Q3: 2.347, 2.353<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 2.3466357591551383
+  },
+  {
+    "CL_bin": "(16000, 17000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.806<br>    CoP_mean: 3.383<br>    Q1, Q3: 3.383, 3.691<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.382505947562633
+  },
+  {
+    "CL_bin": "(18000, 19000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.568<br>    CoP_mean: 3.389<br>    Q1, Q3: 3.389, 3.399<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.389370943470198
+  },
+  {
+    "CL_bin": "(18000, 19000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.35<br>    CoP_mean: 3.384<br>    Q1, Q3: 3.384, 3.403<br>    Count: 3<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.432<br>    CoP_mean: 3.242<br>    Q1, Q3: 3.242, 3.269<br>    Count: 2<br><br>",
+    "Count": 5,
+    "CoP_mean": 3.326957368363934
+  },
+  {
+    "CL_bin": "(18000, 19000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.258<br>    CoP_mean: 3.418<br>    Q1, Q3: 3.418, 3.432<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 3.4176887034692123
+  },
+  {
+    "CL_bin": "(18000, 19000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.727<br>    CoP_mean: 3.258<br>    Q1, Q3: 3.258, 3.292<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.2580071515402
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.808<br>    CoP_mean: 3.49<br>    Q1, Q3: 3.49, 3.581<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.489560487033114
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.253<br>    CoP_mean: 3.724<br>    Q1, Q3: 3.724, 3.927<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.7237782480408272
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.982<br>    CoP_mean: 3.656<br>    Q1, Q3: 3.656, 3.719<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.655826268127175
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.959<br>    CoP_mean: 3.368<br>    Q1, Q3: 3.368, 3.481<br>    Count: 13<br><br>",
+    "Count": 13,
+    "CoP_mean": 3.368188620600574
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.781<br>    CoP_mean: 3.455<br>    Q1, Q3: 3.455, 3.464<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.938<br>    CoP_mean: 3.345<br>    Q1, Q3: 3.345, 3.279<br>    Count: 14<br><br>",
+    "Count": 16,
+    "CoP_mean": 3.358929336245926
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.622<br>    CoP_mean: 3.406<br>    Q1, Q3: 3.406, 3.429<br>    Count: 5<br><br><b>Strategy: 20/7</b><br>    AP_mean: 2.951<br>    CoP_mean: 3.313<br>    Q1, Q3: 3.313, 3.472<br>    Count: 6<br><br>",
+    "Count": 11,
+    "CoP_mean": 3.3556325821205677
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.991<br>    CoP_mean: 3.333<br>    Q1, Q3: 3.333, 3.363<br>    Count: 6<br><br>",
+    "Count": 6,
+    "CoP_mean": 3.3334904918442483
+  },
+  {
+    "CL_bin": "(19000, 20000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 5.051<br>    CoP_mean: 3.322<br>    Q1, Q3: 3.322, 3.322<br>    Count: 8<br><br>",
+    "Count": 8,
+    "CoP_mean": 3.3215933623936102
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.748<br>    CoP_mean: 4.285<br>    Q1, Q3: 4.285, 4.305<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.284626323706005
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.36<br>    CoP_mean: 3.657<br>    Q1, Q3: 3.657, 3.765<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.657201150697092
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.733<br>    CoP_mean: 4.101<br>    Q1, Q3: 4.101, 4.097<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.10093739820351
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.109<br>    CoP_mean: 4.017<br>    Q1, Q3: 4.017, 4.046<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.611<br>    CoP_mean: 3.588<br>    Q1, Q3: 3.588, 3.8<br>    Count: 5<br><br>",
+    "Count": 7,
+    "CoP_mean": 3.7104871665949046
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.439<br>    CoP_mean: 3.915<br>    Q1, Q3: 3.915, 4.042<br>    Count: 3<br><br><b>Strategy: 20/5</b><br>    AP_mean: 4.422<br>    CoP_mean: 3.596<br>    Q1, Q3: 3.596, 3.613<br>    Count: 6<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.029<br>    CoP_mean: 3.414<br>    Q1, Q3: 3.414, 3.462<br>    Count: 3<br><br>",
+    "Count": 12,
+    "CoP_mean": 3.6301935960092617
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.788<br>    CoP_mean: 3.483<br>    Q1, Q3: 3.483, 3.599<br>    Count: 17<br><br>",
+    "Count": 17,
+    "CoP_mean": 3.4826140747969228
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 3.949<br>    CoP_mean: 3.534<br>    Q1, Q3: 3.534, 3.55<br>    Count: 4<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.034<br>    CoP_mean: 3.494<br>    Q1, Q3: 3.494, 3.452<br>    Count: 20<br><br>",
+    "Count": 24,
+    "CoP_mean": 3.500275348442212
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.701<br>    CoP_mean: 3.464<br>    Q1, Q3: 3.464, 3.485<br>    Count: 8<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.884<br>    CoP_mean: 3.351<br>    Q1, Q3: 3.351, 3.495<br>    Count: 10<br><br>",
+    "Count": 18,
+    "CoP_mean": 3.4015858731362107
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.264<br>    CoP_mean: 3.519<br>    Q1, Q3: 3.519, 3.568<br>    Count: 3<br><br><b>Strategy: 20/7</b><br>    AP_mean: 2.881<br>    CoP_mean: 3.804<br>    Q1, Q3: 3.804, 3.963<br>    Count: 3<br><br>",
+    "Count": 6,
+    "CoP_mean": 3.661342007599161
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.776<br>    CoP_mean: 3.365<br>    Q1, Q3: 3.365, 3.379<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.364597632735089
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(28.0, 28.5]",
+    "Text": "<b>Strategy: 20/6</b><br>    AP_mean: 3.602<br>    CoP_mean: 3.374<br>    Q1, Q3: 3.374, 3.403<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 3.374328413990616
+  },
+  {
+    "CL_bin": "(20000, 21000]",
+    "WB_bin": "(28.5, 29.0]",
+    "Text": "<b>Strategy: 20/6</b><br>    AP_mean: 3.164<br>    CoP_mean: 3.357<br>    Q1, Q3: 3.357, 3.357<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.356680381175233
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(20.0, 20.5]",
+    "Text": "<b>Strategy: 11/3</b><br>    AP_mean: 1.842<br>    CoP_mean: 4.806<br>    Q1, Q3: 4.806, 4.885<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.805957821978749
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 11/3</b><br>    AP_mean: 2.844<br>    CoP_mean: 4.603<br>    Q1, Q3: 4.603, 4.643<br>    Count: 2<br><br><b>Strategy: 20/2</b><br>    AP_mean: 4.227<br>    CoP_mean: 4.3<br>    Q1, Q3: 4.3, 4.312<br>    Count: 2<br><br><b>Strategy: 20/4</b><br>    AP_mean: 3.087<br>    CoP_mean: 4.252<br>    Q1, Q3: 4.252, 4.259<br>    Count: 3<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.366103529591033
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.46<br>    CoP_mean: 4.455<br>    Q1, Q3: 4.455, 4.479<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.4550802800177
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.605<br>    CoP_mean: 4.373<br>    Q1, Q3: 4.373, 4.383<br>    Count: 2<br><br><b>Strategy: 20/4</b><br>    AP_mean: 1.943<br>    CoP_mean: 4.277<br>    Q1, Q3: 4.277, 4.311<br>    Count: 3<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.131<br>    CoP_mean: 3.701<br>    Q1, Q3: 3.701, 3.759<br>    Count: 5<br><br>",
+    "Count": 10,
+    "CoP_mean": 4.008153747840295
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.587<br>    CoP_mean: 4.226<br>    Q1, Q3: 4.226, 4.263<br>    Count: 7<br><br><b>Strategy: 20/7</b><br>    AP_mean: 2.842<br>    CoP_mean: 3.709<br>    Q1, Q3: 3.709, 3.81<br>    Count: 5<br><br>",
+    "Count": 12,
+    "CoP_mean": 4.010619421266869
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.47<br>    CoP_mean: 3.987<br>    Q1, Q3: 3.987, 4.151<br>    Count: 2<br><br><b>Strategy: 20/5</b><br>    AP_mean: 3.548<br>    CoP_mean: 3.937<br>    Q1, Q3: 3.937, 3.989<br>    Count: 4<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.798<br>    CoP_mean: 3.867<br>    Q1, Q3: 3.867, 3.921<br>    Count: 3<br><br>",
+    "Count": 9,
+    "CoP_mean": 3.925094650112909
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.384<br>    CoP_mean: 4.042<br>    Q1, Q3: 4.042, 4.235<br>    Count: 3<br><br><b>Strategy: 20/5</b><br>    AP_mean: 4.093<br>    CoP_mean: 3.809<br>    Q1, Q3: 3.809, 3.919<br>    Count: 9<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.822<br>    CoP_mean: 3.62<br>    Q1, Q3: 3.62, 3.658<br>    Count: 12<br><br>",
+    "Count": 24,
+    "CoP_mean": 3.7435104202592
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.119<br>    CoP_mean: 3.642<br>    Q1, Q3: 3.642, 3.681<br>    Count: 3<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.001<br>    CoP_mean: 3.489<br>    Q1, Q3: 3.489, 3.631<br>    Count: 15<br><br>",
+    "Count": 18,
+    "CoP_mean": 3.5146120532002096
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.916<br>    CoP_mean: 3.547<br>    Q1, Q3: 3.547, 3.562<br>    Count: 4<br><br><b>Strategy: 20/6</b><br>    AP_mean: 5.243<br>    CoP_mean: 3.296<br>    Q1, Q3: 3.296, 3.324<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.28<br>    CoP_mean: 3.41<br>    Q1, Q3: 3.41, 3.496<br>    Count: 28<br><br>",
+    "Count": 34,
+    "CoP_mean": 3.4194459025730257
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.539<br>    CoP_mean: 3.522<br>    Q1, Q3: 3.522, 3.538<br>    Count: 17<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.992<br>    CoP_mean: 3.452<br>    Q1, Q3: 3.452, 3.552<br>    Count: 6<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.044<br>    CoP_mean: 3.37<br>    Q1, Q3: 3.37, 3.473<br>    Count: 27<br><br>",
+    "Count": 50,
+    "CoP_mean": 3.4315776146872428
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.497<br>    CoP_mean: 3.498<br>    Q1, Q3: 3.498, 3.514<br>    Count: 16<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.802<br>    CoP_mean: 3.408<br>    Q1, Q3: 3.408, 3.5<br>    Count: 13<br><br>",
+    "Count": 29,
+    "CoP_mean": 3.4578911957005736
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.007<br>    CoP_mean: 3.504<br>    Q1, Q3: 3.504, 3.532<br>    Count: 7<br><br>",
+    "Count": 7,
+    "CoP_mean": 3.5039760632534134
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(28.0, 28.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 3.675<br>    CoP_mean: 3.494<br>    Q1, Q3: 3.494, 3.495<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.4940182509261906
+  },
+  {
+    "CL_bin": "(21000, 22000]",
+    "WB_bin": "(28.5, 29.0]",
+    "Text": "<b>Strategy: 20/6</b><br>    AP_mean: 3.808<br>    CoP_mean: 3.407<br>    Q1, Q3: 3.407, 3.426<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 3.4071541379328183
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(20.0, 20.5]",
+    "Text": "<b>Strategy: 11/3</b><br>    AP_mean: 2.229<br>    CoP_mean: 4.56<br>    Q1, Q3: 4.56, 4.567<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.559526669182404
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(21.0, 21.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.436<br>    CoP_mean: 4.612<br>    Q1, Q3: 4.612, 4.619<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.611799202973886
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 4.698<br>    CoP_mean: 4.346<br>    Q1, Q3: 4.346, 4.389<br>    Count: 6<br><br><b>Strategy: 20/3</b><br>    AP_mean: 3.908<br>    CoP_mean: 4.565<br>    Q1, Q3: 4.565, 4.648<br>    Count: 3<br><br>",
+    "Count": 9,
+    "CoP_mean": 4.418992226007948
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.4<br>    CoP_mean: 4.475<br>    Q1, Q3: 4.475, 4.506<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.475032638650248
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.484<br>    CoP_mean: 4.573<br>    Q1, Q3: 4.573, 4.6<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.573340331285325
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.7<br>    CoP_mean: 4.251<br>    Q1, Q3: 4.251, 4.297<br>    Count: 5<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.244<br>    CoP_mean: 4.003<br>    Q1, Q3: 4.003, 4.031<br>    Count: 4<br><br>",
+    "Count": 9,
+    "CoP_mean": 4.140810238132257
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.418<br>    CoP_mean: 4.188<br>    Q1, Q3: 4.188, 4.234<br>    Count: 10<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.148<br>    CoP_mean: 3.979<br>    Q1, Q3: 3.979, 4.062<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.656<br>    CoP_mean: 3.799<br>    Q1, Q3: 3.799, 3.829<br>    Count: 2<br><br>",
+    "Count": 14,
+    "CoP_mean": 4.102592717155368
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.015<br>    CoP_mean: 4.162<br>    Q1, Q3: 4.162, 4.176<br>    Count: 7<br><br><b>Strategy: 20/5</b><br>    AP_mean: 3.209<br>    CoP_mean: 4.048<br>    Q1, Q3: 4.048, 4.136<br>    Count: 10<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.074<br>    CoP_mean: 3.874<br>    Q1, Q3: 3.874, 3.908<br>    Count: 4<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.589<br>    CoP_mean: 3.776<br>    Q1, Q3: 3.776, 3.864<br>    Count: 4<br><br>",
+    "Count": 25,
+    "CoP_mean": 4.008431629652848
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.299<br>    CoP_mean: 4.291<br>    Q1, Q3: 4.291, 4.354<br>    Count: 2<br><br><b>Strategy: 20/5</b><br>    AP_mean: 4.87<br>    CoP_mean: 3.739<br>    Q1, Q3: 3.739, 3.761<br>    Count: 2<br><br><b>Strategy: 20/6</b><br>    AP_mean: 4.18<br>    CoP_mean: 3.565<br>    Q1, Q3: 3.565, 3.641<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.806<br>    CoP_mean: 3.6<br>    Q1, Q3: 3.6, 3.66<br>    Count: 11<br><br>",
+    "Count": 17,
+    "CoP_mean": 3.693283267968482
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.16<br>    CoP_mean: 4.0<br>    Q1, Q3: 4.0, 4.026<br>    Count: 2<br><br><b>Strategy: 20/5</b><br>    AP_mean: 4.099<br>    CoP_mean: 3.765<br>    Q1, Q3: 3.765, 3.889<br>    Count: 3<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.535<br>    CoP_mean: 3.564<br>    Q1, Q3: 3.564, 3.684<br>    Count: 30<br><br>",
+    "Count": 35,
+    "CoP_mean": 3.6060527545173366
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 5.086<br>    CoP_mean: 3.584<br>    Q1, Q3: 3.584, 3.598<br>    Count: 18<br><br><b>Strategy: 20/6</b><br>    AP_mean: 5.482<br>    CoP_mean: 3.351<br>    Q1, Q3: 3.351, 3.362<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.31<br>    CoP_mean: 3.437<br>    Q1, Q3: 3.437, 3.554<br>    Count: 38<br><br>",
+    "Count": 58,
+    "CoP_mean": 3.479815239837583
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.769<br>    CoP_mean: 3.561<br>    Q1, Q3: 3.561, 3.58<br>    Count: 9<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.947<br>    CoP_mean: 3.545<br>    Q1, Q3: 3.545, 3.577<br>    Count: 5<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.16<br>    CoP_mean: 3.414<br>    Q1, Q3: 3.414, 3.532<br>    Count: 20<br><br>",
+    "Count": 34,
+    "CoP_mean": 3.4719240678395416
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.756<br>    CoP_mean: 3.423<br>    Q1, Q3: 3.423, 3.53<br>    Count: 8<br><br>",
+    "Count": 8,
+    "CoP_mean": 3.4232151136501265
+  },
+  {
+    "CL_bin": "(22000, 23000]",
+    "WB_bin": "(27.5, 28.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 4.076<br>    CoP_mean: 3.528<br>    Q1, Q3: 3.528, 3.532<br>    Count: 4<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.56<br>    CoP_mean: 3.603<br>    Q1, Q3: 3.603, 3.647<br>    Count: 2<br><br>",
+    "Count": 6,
+    "CoP_mean": 3.552781018906117
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(20.5, 21.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 4.793<br>    CoP_mean: 4.634<br>    Q1, Q3: 4.634, 4.637<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.634102207581409
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(21.0, 21.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.66<br>    CoP_mean: 4.794<br>    Q1, Q3: 4.794, 4.923<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.794213246705629
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 4.226<br>    CoP_mean: 4.564<br>    Q1, Q3: 4.564, 4.591<br>    Count: 2<br><br><b>Strategy: 20/3</b><br>    AP_mean: 3.611<br>    CoP_mean: 4.594<br>    Q1, Q3: 4.594, 4.614<br>    Count: 4<br><br>",
+    "Count": 6,
+    "CoP_mean": 4.5844280152720565
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 3.753<br>    CoP_mean: 4.491<br>    Q1, Q3: 4.491, 4.554<br>    Count: 2<br><br><b>Strategy: 20/3</b><br>    AP_mean: 3.462<br>    CoP_mean: 4.562<br>    Q1, Q3: 4.562, 4.627<br>    Count: 8<br><br>",
+    "Count": 10,
+    "CoP_mean": 4.547953490643056
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.259<br>    CoP_mean: 4.575<br>    Q1, Q3: 4.575, 4.585<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.575407538751551
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.484<br>    CoP_mean: 4.885<br>    Q1, Q3: 4.885, 5.105<br>    Count: 2<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.226<br>    CoP_mean: 4.038<br>    Q1, Q3: 4.038, 4.039<br>    Count: 2<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.461991906265963
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.88<br>    CoP_mean: 4.381<br>    Q1, Q3: 4.381, 4.424<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.381460780764277
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.586<br>    CoP_mean: 4.461<br>    Q1, Q3: 4.461, 4.476<br>    Count: 2<br><br><b>Strategy: 20/4</b><br>    AP_mean: 3.334<br>    CoP_mean: 4.137<br>    Q1, Q3: 4.137, 4.179<br>    Count: 4<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.391<br>    CoP_mean: 4.055<br>    Q1, Q3: 4.055, 4.163<br>    Count: 5<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.5<br>    CoP_mean: 3.777<br>    Q1, Q3: 3.777, 3.901<br>    Count: 3<br><br>",
+    "Count": 14,
+    "CoP_mean": 4.076920031120449
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.39<br>    CoP_mean: 4.214<br>    Q1, Q3: 4.214, 4.238<br>    Count: 7<br><br><b>Strategy: 20/6</b><br>    AP_mean: 3.23<br>    CoP_mean: 4.132<br>    Q1, Q3: 4.132, 4.179<br>    Count: 4<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.998<br>    CoP_mean: 3.735<br>    Q1, Q3: 3.735, 3.814<br>    Count: 5<br><br>",
+    "Count": 16,
+    "CoP_mean": 4.044058230951372
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.903<br>    CoP_mean: 4.15<br>    Q1, Q3: 4.15, 4.157<br>    Count: 2<br><br><b>Strategy: 20/5</b><br>    AP_mean: 1.951<br>    CoP_mean: 4.268<br>    Q1, Q3: 4.268, 4.274<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 4.145<br>    CoP_mean: 3.668<br>    Q1, Q3: 3.668, 3.854<br>    Count: 16<br><br>",
+    "Count": 20,
+    "CoP_mean": 3.775827579886841
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/6</b><br>    AP_mean: 3.892<br>    CoP_mean: 3.808<br>    Q1, Q3: 3.808, 4.183<br>    Count: 4<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.981<br>    CoP_mean: 3.586<br>    Q1, Q3: 3.586, 3.644<br>    Count: 31<br><br>",
+    "Count": 35,
+    "CoP_mean": 3.611352011675325
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 4.006<br>    CoP_mean: 3.536<br>    Q1, Q3: 3.536, 3.596<br>    Count: 44<br><br>",
+    "Count": 44,
+    "CoP_mean": 3.536462402363107
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/6</b><br>    AP_mean: 3.861<br>    CoP_mean: 3.591<br>    Q1, Q3: 3.591, 3.607<br>    Count: 3<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.93<br>    CoP_mean: 3.489<br>    Q1, Q3: 3.489, 3.565<br>    Count: 29<br><br>",
+    "Count": 32,
+    "CoP_mean": 3.498620069402905
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.294<br>    CoP_mean: 3.589<br>    Q1, Q3: 3.589, 3.674<br>    Count: 7<br><br>",
+    "Count": 7,
+    "CoP_mean": 3.5894970383519165
+  },
+  {
+    "CL_bin": "(23000, 24000]",
+    "WB_bin": "(28.0, 28.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 1.737<br>    CoP_mean: 3.654<br>    Q1, Q3: 3.654, 3.663<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.653906546953282
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 4.079<br>    CoP_mean: 4.668<br>    Q1, Q3: 4.668, 4.916<br>    Count: 4<br><br><b>Strategy: 20/3</b><br>    AP_mean: 4.019<br>    CoP_mean: 4.576<br>    Q1, Q3: 4.576, 4.612<br>    Count: 3<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.628409950911517
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 3.828<br>    CoP_mean: 4.509<br>    Q1, Q3: 4.509, 4.523<br>    Count: 3<br><br><b>Strategy: 20/3</b><br>    AP_mean: 3.567<br>    CoP_mean: 4.592<br>    Q1, Q3: 4.592, 4.566<br>    Count: 6<br><br>",
+    "Count": 9,
+    "CoP_mean": 4.564102037237685
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 3.767<br>    CoP_mean: 4.487<br>    Q1, Q3: 4.487, 4.504<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.486943368277757
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.882<br>    CoP_mean: 4.45<br>    Q1, Q3: 4.45, 4.544<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 4.450144444858277
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 3.473<br>    CoP_mean: 4.236<br>    Q1, Q3: 4.236, 4.289<br>    Count: 3<br><br>",
+    "Count": 3,
+    "CoP_mean": 4.236285675119752
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.213<br>    CoP_mean: 4.434<br>    Q1, Q3: 4.434, 4.545<br>    Count: 2<br><br><b>Strategy: 20/5</b><br>    AP_mean: 2.826<br>    CoP_mean: 4.252<br>    Q1, Q3: 4.252, 4.267<br>    Count: 2<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.343317520864528
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.255<br>    CoP_mean: 3.744<br>    Q1, Q3: 3.744, 3.778<br>    Count: 6<br><br>",
+    "Count": 6,
+    "CoP_mean": 3.744174602618859
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(25.5, 26.0]",
+    "Text": "<b>Strategy: 20/6</b><br>    AP_mean: 2.187<br>    CoP_mean: 4.04<br>    Q1, Q3: 4.04, 4.078<br>    Count: 2<br><br><b>Strategy: 20/7</b><br>    AP_mean: 3.849<br>    CoP_mean: 3.623<br>    Q1, Q3: 3.623, 3.707<br>    Count: 8<br><br>",
+    "Count": 10,
+    "CoP_mean": 3.7064428507190312
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.698<br>    CoP_mean: 3.633<br>    Q1, Q3: 3.633, 3.631<br>    Count: 20<br><br>",
+    "Count": 20,
+    "CoP_mean": 3.6328147630791774
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(26.5, 27.0]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.899<br>    CoP_mean: 3.608<br>    Q1, Q3: 3.608, 3.684<br>    Count: 15<br><br>",
+    "Count": 15,
+    "CoP_mean": 3.607736978916411
+  },
+  {
+    "CL_bin": "(24000, 25000]",
+    "WB_bin": "(27.0, 27.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 3.556<br>    CoP_mean: 3.757<br>    Q1, Q3: 3.757, 3.817<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.7566012177820856
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(20.0, 20.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.803<br>    CoP_mean: 4.846<br>    Q1, Q3: 4.846, 4.913<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.845749393671447
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 4.36<br>    CoP_mean: 4.514<br>    Q1, Q3: 4.514, 4.557<br>    Count: 4<br><br><b>Strategy: 20/3</b><br>    AP_mean: 4.045<br>    CoP_mean: 4.611<br>    Q1, Q3: 4.611, 4.621<br>    Count: 2<br><br>",
+    "Count": 6,
+    "CoP_mean": 4.546456865155718
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(22.0, 22.5]",
+    "Text": "<b>Strategy: 20/2</b><br>    AP_mean: 3.73<br>    CoP_mean: 4.523<br>    Q1, Q3: 4.523, 4.557<br>    Count: 2<br><br><b>Strategy: 20/3</b><br>    AP_mean: 3.567<br>    CoP_mean: 4.564<br>    Q1, Q3: 4.564, 4.629<br>    Count: 3<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.547719292729774
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.432<br>    CoP_mean: 4.527<br>    Q1, Q3: 4.527, 4.563<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.5269012542739535
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 4.074<br>    CoP_mean: 4.381<br>    Q1, Q3: 4.381, 4.393<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.3812232669079645
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.537<br>    CoP_mean: 4.578<br>    Q1, Q3: 4.578, 4.688<br>    Count: 4<br><br><b>Strategy: 20/4</b><br>    AP_mean: 2.951<br>    CoP_mean: 4.352<br>    Q1, Q3: 4.352, 4.407<br>    Count: 3<br><br>",
+    "Count": 7,
+    "CoP_mean": 4.481062412788599
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(24.0, 24.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 4.192<br>    CoP_mean: 4.178<br>    Q1, Q3: 4.178, 4.195<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.177919008454266
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/5</b><br>    AP_mean: 2.678<br>    CoP_mean: 4.195<br>    Q1, Q3: 4.195, 4.238<br>    Count: 4<br><br>",
+    "Count": 4,
+    "CoP_mean": 4.194521253574944
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(25.0, 25.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.257<br>    CoP_mean: 4.23<br>    Q1, Q3: 4.23, 4.247<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.230101290079166
+  },
+  {
+    "CL_bin": "(25000, 26000]",
+    "WB_bin": "(26.0, 26.5]",
+    "Text": "<b>Strategy: 20/7</b><br>    AP_mean: 2.736<br>    CoP_mean: 3.656<br>    Q1, Q3: 3.656, 3.663<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 3.656189331715008
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(20.0, 20.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 4.002<br>    CoP_mean: 4.78<br>    Q1, Q3: 4.78, 4.782<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.780179040401986
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(21.0, 21.5]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.121<br>    CoP_mean: 4.692<br>    Q1, Q3: 4.692, 4.803<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.692456077385836
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(21.5, 22.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.979<br>    CoP_mean: 4.573<br>    Q1, Q3: 4.573, 4.639<br>    Count: 5<br><br>",
+    "Count": 5,
+    "CoP_mean": 4.573244731807406
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(22.5, 23.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 3.358<br>    CoP_mean: 4.558<br>    Q1, Q3: 4.558, 4.639<br>    Count: 8<br><br>",
+    "Count": 8,
+    "CoP_mean": 4.557929715269294
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(23.0, 23.5]",
+    "Text": "<b>Strategy: 20/4</b><br>    AP_mean: 2.595<br>    CoP_mean: 4.453<br>    Q1, Q3: 4.453, 4.488<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.452961989823775
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(23.5, 24.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.529<br>    CoP_mean: 4.526<br>    Q1, Q3: 4.526, 4.597<br>    Count: 8<br><br>",
+    "Count": 8,
+    "CoP_mean": 4.525503785030242
+  },
+  {
+    "CL_bin": "(26000, 27000]",
+    "WB_bin": "(24.5, 25.0]",
+    "Text": "<b>Strategy: 20/3</b><br>    AP_mean: 2.249<br>    CoP_mean: 4.457<br>    Q1, Q3: 4.457, 4.465<br>    Count: 2<br><br>",
+    "Count": 2,
+    "CoP_mean": 4.456966438636492
+  }
+]
