@@ -13,15 +13,15 @@ const DynamicPlot = dynamic(import('../../components/analytics'), {
 
 const Analytics = () => {
   const router = useRouter();
-  const { CL_bin, WB_bin } = router.query;
-  console.log(router.query);
+  const { cL_Bin, wB_Bin } = router.query;
+  // console.log(router.query);
   return (
     <div>
       <Link href="/modetable">
-        <a>Back to home</a>
+        <a>Back to Mode Table</a>
       </Link>
       <p>
-        Cooling Load and Wet Bulb Temp are in between {CL_bin}, {WB_bin} respectively
+        Cooling Load and Wet Bulb Temp are in between {cL_Bin}, {wB_Bin} respectively
       </p>
       <DynamicPlot data={router.query}></DynamicPlot>
     </div>

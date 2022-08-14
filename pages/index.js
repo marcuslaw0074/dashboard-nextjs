@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Read <Link href="/posts/first-post">this page!</Link>
+          Read <Link href="/modetable">this page!</Link>
         </h1>
 
         <p className="description">

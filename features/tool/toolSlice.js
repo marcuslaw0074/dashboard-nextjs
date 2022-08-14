@@ -1,10 +1,11 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchData } from "./toolAPI";
+import { fetchData, fetchCoPData } from "./toolAPI";
 
 const initialState = {
   value: 0,
   status: "idle",
   data: [],
+  copData: [],
 };
 
 export const initalDataAsync = createAsyncThunk(
@@ -15,6 +16,17 @@ export const initalDataAsync = createAsyncThunk(
     return response;
   }
 );
+
+export const copDataAsync = createAsyncThunk(
+  "tool/fetchCoPData",
+  async (measurement) => {
+    // console.log(measurement)
+    const response = await fetchCoPData({ measurement });
+    // The value we return becomes the `fulfilled` action payload
+    return response;
+  }
+);
+
 export const initalDataSlice = createSlice({
   name: "tool",
   initialState,
@@ -35,7 +47,14 @@ export const initalDataSlice = createSlice({
       .addCase(initalDataAsync.fulfilled, (state, action) => {
         state.status = "idle";
         state.data = action.payload;
-      });
+      })
+      .addCase(copDataAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(copDataAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.copData = action.payload;
+      })
   },
 });
 
@@ -44,6 +63,5 @@ export const { incrementByAmount } = initalDataSlice.actions;
 export const selectPartialState = (part) => (state) => {
   return state.tool[part];
 };
-
 
 export default initalDataSlice.reducer;

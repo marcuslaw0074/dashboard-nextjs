@@ -13,9 +13,10 @@ import {
   incrementByAmount,
   selectPartialState,
   initalDataAsync,
+  copDataAsync,
 } from "../features/tool/toolSlice";
 
-var dataJson = require("../assets/DemoData.json");
+import styles from "./modeTable.module.css";
 
 const replaceDemo = (demoJson, newJson) => {
   return demoJson.map((ele, index) => newJson.map((ele2, index) => ele2));
@@ -29,8 +30,22 @@ const layout = {
   title: "Mode Table",
 };
 
+const colorbar = [
+  // ["0.0", "rgb(165,0,38)"],
+  // ["0.111111111111", "rgb(215,48,39)"],
+  // ["0.222222222222", "rgb(244,109,67)"],
+  // ["0.333333333333", "rgb(253,174,97)"],
+  // ["0.444444444444", "rgb(254,224,144)"],
+  // ["0.555555555556", "rgb(234,243,238)"],
+  // ["0.555555555556", "rgb(224,243,248)"],
+  ["0.666666666667", "rgb(171,217,233)"],
+  ["0.777777777778", "rgb(116,173,209)"],
+  ["0.888888888889", "rgb(69,117,180)"],
+  ["1.0", "rgb(49,54,149)"],
+];
+
 const toAnalytics = (data) => {
-  console.log(data);
+  // console.log(data);
   console.log(
     "Cooling Load: ",
     data.points[0].x,
@@ -43,29 +58,14 @@ const toAnalytics = (data) => {
     "\n"
   );
   Router.push(
-    `/analytics?CL_bin=${data.points[0].x}&WB_bin=${data.points[0].y}`
+    `/analytics?cL_Bin=${data.points[0].x}&wB_Bin=${data.points[0].y}`
   );
-  // alert('data:\n\n'+data[0]);
 };
 
-var trace = {
-  x: dataJson.map((ele) => ele["CL_bin"]),
-  y: dataJson.map((ele) => ele["WB_bin"]),
-  mode: "markers",
-  type: "scatter",
-  name: "Team A",
-  text: dataJson.map((ele) => ele["Text"]),
-  marker: {
-    color: dataJson.map((ele) => ele["CoP_mean"]),
-    size: dataJson.map((ele) =>
-      ele["Count"] === 0 ? 0 : (ele["Count"] + 20) / 2
-    ),
-    colorbar: { title: "CoP", titleside: "Top" },
-    colorscale: "YlGnBu",
-  },
+const toCHillerCoP = (measurement) => {
+  // console.log(measurement);
+  Router.push(`/chillercop?measurement=${measurement}`);
 };
-
-var data = [trace];
 
 const toJsonData = (dataJson) => {
   dataJson = JSON.stringify(dataJson)
@@ -75,7 +75,6 @@ const toJsonData = (dataJson) => {
 };
 
 const toPlotData = (dataJson) => {
-  console.log(1341,dataJson)
   var trace = {
     x: dataJson.map((ele) => ele["cL_Bin"]),
     y: dataJson.map((ele) => ele["wB_Bin"]),
@@ -92,23 +91,67 @@ const toPlotData = (dataJson) => {
       colorscale: "YlGnBu",
     },
   };
-  console.log(trace)
+  // console.log(trace);
   return [trace];
 };
+
+const measurementList = [
+  // "WCC_1",
+  // "WCC_2",
+  // "WCC_3",
+  // "WCC_4",
+  // "WCC_5",
+  // "WCC_6",
+  // "WCC_7",
+  // "WCC_8",
+  "WCC_9",
+  "WCC_11",
+  "WCC_13",
+];
 
 const PlotGraph = () => {
   const data = useSelector(selectPartialState("data"));
   const dispatch = useDispatch();
+  const status = useSelector(selectPartialState("status"));
 
   React.useEffect(() => {
-    console.log("fetching data...");
-    dispatch(initalDataAsync());
+    console.log(status);
+  }, [status]);
+
+  React.useEffect(() => {
+    if (!data.length) {
+      console.log("fetching data...");
+      dispatch(initalDataAsync());
+    }
   }, []);
 
   return (
     <div>
-      {data.length ? (
-        <Plot data={toPlotData(toJsonData(data))} layout={layout} onClick={toAnalytics} />
+      {status === "loading" ? (
+        <div>LOADING...</div>
+      ) : data.length ? (
+        <div className={styles.divClass}>
+          <Plot
+            data={toPlotData(toJsonData(data))}
+            layout={layout}
+            onClick={toAnalytics}
+          />
+          <div>
+            <ul>
+              Chiller CoP Curve
+              {measurementList.map((ele, index) => (
+                <li key={ele}>
+                  <button
+                    onClick={() => toCHillerCoP(ele)}
+                    style={{ backgroundColor: colorbar[index][1], color: "#ffffff" }}
+                  >
+                    {ele}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
       ) : null}
     </div>
   );
@@ -119,5 +162,5 @@ export default () => {
     <Provider store={store}>
       <PlotGraph></PlotGraph>
     </Provider>
-  )
-}
+  );
+};
