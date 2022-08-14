@@ -50,6 +50,21 @@ const findSid = (sequence) => {
   return chLs;
 };
 
+const colorscale = [
+  ["0.0", "rgb(165,0,38)"],
+  ["0.111111111111", "rgb(215,48,39)"],
+  ["0.222222222222", "rgb(244,109,67)"],
+  ["0.333333333333", "rgb(253,174,97)"],
+  ["0.444444444444", "rgb(254,224,144)"],
+  ["0.555555555556", "rgb(224,243,248)"],
+  ["0.666666666667", "rgb(171,217,233)"],
+  ["0.777777777778", "rgb(116,173,209)"],
+  ["0.888888888889", "rgb(69,117,180)"],
+  ["1.0", "rgb(49,54,149)"],
+];
+
+const colorList = ["rgb(165,0,38)", "rgb(69,117,180)", "rgb(254,224,144)"];
+
 const AnalyticsPlot = ({ data }) => {
   const [chartType, setChartType] = React.useState();
   const dataJson = useSelector(selectPartialState("data"));
@@ -153,18 +168,7 @@ const AnalyticsPlot = ({ data }) => {
                   ),
                   color: ele.result.map((el) => splitTupleSum(el["CT_Seq"])),
                   colorbar: { title: "CT_Energy", titleside: "Top" },
-                  colorscale: [
-                    ["0.0", "rgb(165,0,38)"],
-                    ["0.111111111111", "rgb(215,48,39)"],
-                    ["0.222222222222", "rgb(244,109,67)"],
-                    ["0.333333333333", "rgb(253,174,97)"],
-                    ["0.444444444444", "rgb(254,224,144)"],
-                    ["0.555555555556", "rgb(224,243,248)"],
-                    ["0.666666666667", "rgb(171,217,233)"],
-                    ["0.777777777778", "rgb(116,173,209)"],
-                    ["0.888888888889", "rgb(69,117,180)"],
-                    ["1.0", "rgb(49,54,149)"],
-                  ],
+                  colorscale: colorscale,
                 },
                 mode: "markers",
               },
@@ -173,7 +177,7 @@ const AnalyticsPlot = ({ data }) => {
           ></Plot>
           <Plot
             // key={index}
-            data={findSid(ele.Strategy).map((ele2) => {
+            data={findSid(ele.Strategy).map((ele2, index) => {
               // console.log(ele2)
               return {
                 x: ele.result.map((el) => parseFloat(el["CDWT"])),
@@ -189,7 +193,12 @@ const AnalyticsPlot = ({ data }) => {
                     )}`
                 ),
                 // type: "bar",
+                mode: "lines+markers",
                 name: `Chiller_${ele2}`,
+                line: {
+                  color: colorList[index],
+                  width: 1,
+                },
                 marker: {
                   // size: ele.result.map(
                   //   (el) => (parseFloat(el["counts"]) + 2) * 3
