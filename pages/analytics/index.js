@@ -6,7 +6,7 @@ import dynamic from 'next/dynamic'
 
 
 
-const DynamicPlot = dynamic(import('../../components/plot_CoP'), {
+const DynamicPlot = dynamic(import('../../components/analytics'), {
   ssr: false
 })
 
@@ -17,7 +17,7 @@ const Analytics = () => {
   console.log(router.query);
   return (
     <div>
-      <Link href="/modetable/test">
+      <Link href="/modetable">
         <a>Back to home</a>
       </Link>
       <p>
