@@ -13,6 +13,7 @@ import {
   selectPartialState,
   initalDataAsync,
   copDataAsync,
+  energyDataAsync,
 } from "../features/tool/toolSlice";
 
 const Plot = createPlotComponent(plotly);

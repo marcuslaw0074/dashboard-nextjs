@@ -1,11 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchData, fetchCoPData } from "./toolAPI";
+import { fetchData, fetchCoPData, fetchEnergyData } from "./toolAPI";
 
 const initialState = {
   value: 0,
   status: "idle",
   data: [],
   copData: [],
+  energyData: [],
 };
 
 export const initalDataAsync = createAsyncThunk(
@@ -26,6 +27,16 @@ export const copDataAsync = createAsyncThunk(
     return response;
   }
 );
+
+export const energyDataAsync = createAsyncThunk(
+    "tool/fetchEnergyData",
+    async ({databaseName, queryString}) => {
+      console.log(databaseName, queryString)
+      const response = await fetchEnergyData({ databaseName, queryString });
+      // The value we return becomes the `fulfilled` action payload
+      return response;
+    }
+  );
 
 export const initalDataSlice = createSlice({
   name: "tool",
@@ -54,6 +65,13 @@ export const initalDataSlice = createSlice({
       .addCase(copDataAsync.fulfilled, (state, action) => {
         state.status = "idle";
         state.copData = action.payload;
+      })
+      .addCase(energyDataAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(energyDataAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.energyData = action.payload;
       })
   },
 });

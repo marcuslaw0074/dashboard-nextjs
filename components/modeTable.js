@@ -8,12 +8,14 @@ import Link from "next/link";
 import Router, { useRouter } from "next/router";
 import { Provider } from "react-redux";
 import { store } from "../app/store";
+import axios from "axios";
 
 import {
   incrementByAmount,
   selectPartialState,
   initalDataAsync,
   copDataAsync,
+  energyDataAsync,
 } from "../features/tool/toolSlice";
 
 import styles from "./modeTable.module.css";
@@ -67,6 +69,11 @@ const toCHillerCoP = (measurement) => {
   Router.push(`/chillercop?measurement=${measurement}`);
 };
 
+const toCHillerEn = (chillerNo) => {
+  // console.log(measurement);
+  Router.push(`/energy?chillerNo=${chillerNo}`);
+};
+
 const toJsonData = (dataJson) => {
   dataJson = JSON.stringify(dataJson)
     .replaceAll("texts", "text")
@@ -109,6 +116,8 @@ const measurementList = [
   "WCC_13",
 ];
 
+const energyList = measurementList.map(ele => `${ele.replace("_", "")}_Chiller_Energy`);
+
 const PlotGraph = () => {
   const data = useSelector(selectPartialState("data"));
   const dispatch = useDispatch();
@@ -119,9 +128,16 @@ const PlotGraph = () => {
   }, [status]);
 
   React.useEffect(() => {
+    // let data = { databaseName: "Sands", queryString: "select * from sid_chiller limit 1" }
+    // data = Object.entries(data);
+    // data = data.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`);
+    // let query = data.join('&');
+    // console.log(query)
+    // axios.post()
     if (!data.length) {
       console.log("fetching data...");
       dispatch(initalDataAsync());
+      dispatch(energyDataAsync({databaseName:"Sands", queryString:"select * from energy_chiller limit 100"}))
     }
   }, []);
 
@@ -143,6 +159,19 @@ const PlotGraph = () => {
                 <li key={ele}>
                   <button
                     onClick={() => toCHillerCoP(ele)}
+                    style={{ backgroundColor: colorbar[index][1], color: "#ffffff" }}
+                  >
+                    {ele}
+                  </button>
+                </li>
+              ))}
+            </ul>
+            <ul>
+              Energy Plot
+              {energyList.map((ele, index) => (
+                <li key={ele}>
+                  <button
+                    onClick={() => toCHillerEn(ele)}
                     style={{ backgroundColor: colorbar[index][1], color: "#ffffff" }}
                   >
                     {ele}
