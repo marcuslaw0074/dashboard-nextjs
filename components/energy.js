@@ -19,14 +19,14 @@ import {
 const Plot = createPlotComponent(plotly);
 
 const layout = {
-  width: 1000,
+  width: 1600,
   height: 600,
   title: "Energy Plot",
 };
 
 const EnergyPlot = ({ chillerNo }) => {
   const databaseName = "Sands";
-  const queryString = "SELECT * FROM energy_chiller limit 100";
+  const queryString = "SELECT * FROM energy_chiller";
 
   const energyData = useSelector(selectPartialState("energyData"));
   const dispatch = useDispatch();

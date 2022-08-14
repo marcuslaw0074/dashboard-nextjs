@@ -128,16 +128,9 @@ const PlotGraph = () => {
   }, [status]);
 
   React.useEffect(() => {
-    // let data = { databaseName: "Sands", queryString: "select * from sid_chiller limit 1" }
-    // data = Object.entries(data);
-    // data = data.map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`);
-    // let query = data.join('&');
-    // console.log(query)
-    // axios.post()
     if (!data.length) {
       console.log("fetching data...");
       dispatch(initalDataAsync());
-      dispatch(energyDataAsync({databaseName:"Sands", queryString:"select * from energy_chiller limit 100"}))
     }
   }, []);
 
