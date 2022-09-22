@@ -123,6 +123,25 @@ const PlotGraph = () => {
   const dispatch = useDispatch();
   const status = useSelector(selectPartialState("status"));
 
+  React.useEffect(()=> {
+    axios.post(
+      "http://localhost:9000/brickapi/v1/graphql/async",
+      {
+        query: `query MyQuery {
+          timeseriessgroupbyinter(database: "ArupDemo",
+          endTime: "2021-04-30T19:00:00Z", measurement: "OTP", pointNameList: ["01/Server 1/RealTimeData/NCU-05-01/SBO Point/MVAC/5F AHU Room 1/AHU-05-01/AHU-05-01.O.A. Humidity.Value","01/Server 1/RealTimeData/NCU-05-01/SBO Point/MVAC/5F AHU Room 1/AHU-05-01/AHU-05-01.Water Supply Temperature.Value","01/Server 1/RealTimeData/NCU-05-01/SBO Point/MVAC/5F AHU Room 1/AHU-05-01/AHU-05-01.Water Return Temperature.Value"], startTime: "2021-04-29T19:00:00Z", aggreTpye: first) {
+            name
+            series {
+              prefername
+              time
+              value
+            }
+          }
+        }`
+      }
+    ).then(res => console.log(res.data.data))
+  })
+
   React.useEffect(() => {
     console.log(status);
   }, [status]);

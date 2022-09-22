@@ -27,14 +27,13 @@ const layout = {
 const EnergyPlot = ({ chillerNo }) => {
   const databaseName = "Sands";
   const queryString = "SELECT * FROM energy_chiller";
-
   const energyData = useSelector(selectPartialState("energyData"));
   const dispatch = useDispatch();
   const status = useSelector(selectPartialState("status"));
 
   React.useEffect(() => {
     console.log("fetching data...");
-    dispatch(energyDataAsync({databaseName, queryString}));
+    dispatch(energyDataAsync({ databaseName, queryString }));
   }, []);
 
   React.useEffect(() => {
@@ -44,7 +43,7 @@ const EnergyPlot = ({ chillerNo }) => {
   if (!energyData.length) {
     return <div>LOADING...</div>;
   }
-console.log(energyData, chillerNo)
+  console.log(energyData, chillerNo);
   return (
     <div>
       <Plot

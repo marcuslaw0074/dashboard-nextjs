@@ -33,7 +33,7 @@ export function fetchEnergyData({ databaseName, queryString }) {
     databaseName,
     queryString,
   }).then(function (response) {
-    console.log(response.data);
+    // console.log(response.data);
     return response.data;
   });
 }
