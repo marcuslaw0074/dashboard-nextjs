@@ -1,0 +1,283 @@
+{
+    "chartJson": {
+      "axisConfig": {},
+      "chartType": "multiple",
+      "grid": {
+        "bottom": 60,
+        "left": 50,
+        "right": 50,
+        "top": 60
+      },
+      "legend": {
+        "data": [
+          "AHU-05-01.S.A. Temperature.Value",
+          "AHU-05-01.R.A. Temperature 1.Value"
+        ],
+        "icon": "circle",
+        "left": "center",
+        "orient": "horizontal",
+        "show": true,
+        "top": "bottom",
+        "type": "scroll"
+      },
+      "pie": {
+        "BorderWidth": 10,
+        "DoughnutHoleSize": 62,
+        "Rosetype": false,
+        "Showlable": true
+      },
+      "series": [
+        {
+          "data": [],
+          "emphasis": {
+            "lineStyle": {
+              "width": 2
+            }
+          },
+          "name": "AHU-05-01.S.A. Temperature.Value",
+          "type": "line"
+        },
+        {
+          "data": [],
+          "emphasis": {
+            "lineStyle": {
+              "width": 2
+            }
+          },
+          "name": "AHU-05-01.S.A. Temperature.Value",
+          "type": "line"
+        }
+      ],
+      "theme": "dark",
+      "title": {
+        "left": "center",
+        "subtext": "",
+        "text": "test",
+        "top": "top"
+      },
+      "tooltip": {
+        "axisPointer": {
+          "label": {
+            "show": false
+          }
+        },
+        "trigger": "axis"
+      },
+      "xAxis": {
+        "axisLabel": {
+          "interval": "auto"
+        },
+        "data": [],
+        "maxInterval": 6,
+        "minInterval": 1,
+        "name": "",
+        "splitLine": {
+          "lineStyle": {
+            "type": "dashed"
+          }
+        },
+        "splitNumber": 5,
+        "type": "category"
+      },
+      "yAxis": {
+        "axisLine": {
+          "lineStyle": {
+            "type": "solid"
+          },
+          "show": true
+        },
+        "name": "",
+        "nameTextStyle": {
+          "align": "left"
+        },
+        "splitLine": {
+          "lineStyle": {
+            "color": "#333",
+            "type": "dashed"
+          }
+        },
+        "type": "value",
+        "unit": ""
+      }
+    },
+    "componentId": "3a026533-ad79-0082-6898-c996ab4fbcab",
+    "data": {
+      "api": {
+        "calc": {
+          "calcNum": 8
+        },
+        "chartTypes": [
+          {
+            "chartType": "Line",
+            "name": "AHU-05-01.S.A. Temperature.Value",
+            "yAxis": "Left"
+          },
+          {
+            "chartType": "Bar",
+            "name": "AHU-05-01.R.A. Temperature 1.Value",
+            "yAxis": "Right"
+          }
+        ],
+        "maxTotal": 20,
+        "method": "",
+        "isTimeseries": true,
+        "params": {
+          "jsonKey": "",
+          "equipmentsParams": ["AHU-05-01.S.A. Temperature.Value", "AHU-05-01.R.A. Temperature 1.Value"],
+          "equipments": ["AHU-05-01"],
+          "location": "05F",
+          "locationType": "Floor",
+          "system": "Air_System",
+          "systemType": "HVAC_System"
+        },
+        "total": {
+          "key": "",
+          "subTitleDown": "Sub Title Demo",
+          "subTitleUp": "Sub Title Demo"
+        },
+        "url": "http://192.168.100.214:9000/brickapi/v1/graphql/async"
+      },
+      "csv": {},
+      "database": {
+        "library": "",
+        "password": "",
+        "table": "",
+        "top": 20,
+        "username": ""
+      },
+      "group": {
+        "groupContentStr": "",
+        "groupKey": ""
+      },
+      "json": {
+        "point1": [
+          {
+            "value": 23.5400009155273,
+            "time": "2021-05-04T04:26:41.145688+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 23.5400009155273,
+            "time": "2021-05-04T04:46:41.178395+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T05:06:41.026812+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T05:26:41.316239+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T05:46:41.115014+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T06:06:41.511147+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T06:26:41.143331+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T06:46:41.440639+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T07:06:41.159099+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          },
+          {
+            "value": 24.4500007629395,
+            "time": "2021-05-04T07:26:41.478414+00:00",
+            "prefername": "AHU-05-01.S.A. Temperature.Value"
+          }
+        ],
+        "point2": [
+          {
+            "value": 23.6399993896484,
+            "time": "2021-05-04T04:26:39.403274+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.6399993896484,
+            "time": "2021-05-04T04:46:39.628838+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.6399993896484,
+            "time": "2021-05-04T05:06:39.505977+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T05:26:39.692981+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T05:46:39.465046+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T06:06:39.839302+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T06:26:39.493288+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T06:46:39.780916+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T07:06:39.532228+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          },
+          {
+            "value": 23.7099990844727,
+            "time": "2021-05-04T07:26:39.806358+00:00",
+            "prefername": "AHU-05-01.R.A. Temperature 1.Value"
+          }
+        ]
+      },
+      "orderBy": {
+        "orderByKey": "",
+        "orderByType": ""
+      },
+      "type": "api"
+    },
+    "h": 4,
+    "i": 0,
+    "id": "",
+    "moved": false,
+    "name": "",
+    "pageCompConfigId": "3a048976-31e7-c6e4-eaad-ff571bb95ec9",
+    "styles": {
+      "h": 4,
+      "w": 4,
+      "x": 0,
+      "y": 0
+    },
+    "title": "",
+    "type": "chart",
+    "updateTime": 10,
+    "w": 4,
+    "x": 0,
+    "y": 0
+  }
+  

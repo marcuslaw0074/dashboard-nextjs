@@ -1,0 +1,78 @@
+[
+  {
+    "expressions": [
+      {
+        "rhs": "a",
+        "lhs": "CCP1 CH2 Supply Temp.(Deg C)"
+      },
+      {
+        "rhs": "b",
+        "lhs": "CCP1 CH2 Return Temp.(Deg C)"
+      },
+      {
+        "rhs": "c",
+        "lhs": 4.2
+      },
+      {
+        "rhs": "d",
+        "lhs": "CCP1 CH2 Water Flow (l/s)"
+      },
+      {
+        "rhs": "e",
+        "lhs": 0
+      }
+    ],
+    "expression": "if ( ((e<b-a) and (e<c)) ) { return (b-a)*c*d } else if ( ((e>b-a) or (e>c)) ) { return e }",
+    "name": "CCP1 CH2 Cooling Load",
+    "id": 1,
+    "show": true
+  },
+  {
+    "expressions": [
+      {
+        "rhs": "a",
+        "lhs": "CCP1 CH2 Supply Temp.(Deg C)"
+      },
+      {
+        "rhs": "b",
+        "lhs": "CCP1 CH2 Return Temp.(Deg C)"
+      },
+      {
+        "rhs": "c",
+        "lhs": 4.2
+      },
+      {
+        "rhs": "d",
+        "lhs": "CCP1 CH2 Water Flow (l/s)"
+      },
+      {
+        "rhs": "e",
+        "lhs": "CCP1 CH2 Power Consumption (kW)"
+      },
+      {
+        "rhs": "f",
+        "lhs": 0
+      }
+    ],
+    "expression": "if ( ((f<b-a) and (f<c) and (f<e)) ) { return (b-a)*c*d/e } else if ( ((f>b-a) or (f>c)) ) { return f }",
+    "name": "CCP1 CH2 CoP",
+    "id": 2,
+    "show": true
+  },
+  {
+    "expressions": [
+      {
+        "rhs": "a",
+        "lhs": "CCP1 CH2 Supply Temp.(Deg C)"
+      },
+      {
+        "rhs": "b",
+        "lhs": "CCP1 CH2 Return Temp.(Deg C)"
+      }
+    ],
+    "expression": "b-a",
+    "name": "CCP1 CH2 Delta T",
+    "id": 3,
+    "show": true
+  }
+]

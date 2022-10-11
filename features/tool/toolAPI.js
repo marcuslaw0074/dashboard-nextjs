@@ -1,10 +1,22 @@
 import axios from "axios";
 
+var dataJson = require("../../assets/DemoData.json");
 export function fetchData() {
+  return dataJson
   return new axios.get("https://localhost:7137/api/ModeTable").then(function (
     response
   ) {
     // console.log(response.data);
+    return response.data;
+  });
+}
+
+export function fetchHeatmapData({ host, port, database, query }) {
+  console.log({ host, port, database, query })
+  return new axios.post(
+    `http://localhost:8080/api/v1/influxdb/query`, { host, port, database, query },
+  ).then(function (response) {
+    console.log(response.data);
     return response.data;
   });
 }

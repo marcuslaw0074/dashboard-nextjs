@@ -1,5 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchData, fetchCoPData, fetchEnergyData } from "./toolAPI";
+import {
+  fetchData,
+  fetchCoPData,
+  fetchEnergyData,
+  fetchHeatmapData,
+} from "./toolAPI";
 
 const initialState = {
   value: 0,
@@ -18,6 +23,15 @@ export const initalDataAsync = createAsyncThunk(
   }
 );
 
+export const initalHeatmapDataAsync = createAsyncThunk(
+  "tool/fetchHeatmapData",
+  async ({ host, port, database, query }) => {
+    const response = await fetchHeatmapData({ host, port, database, query });
+    // The value we return becomes the `fulfilled` action payload
+    return response;
+  }
+);
+
 export const copDataAsync = createAsyncThunk(
   "tool/fetchCoPData",
   async (measurement) => {
@@ -29,14 +43,14 @@ export const copDataAsync = createAsyncThunk(
 );
 
 export const energyDataAsync = createAsyncThunk(
-    "tool/fetchEnergyData",
-    async ({databaseName, queryString}) => {
-      console.log(databaseName, queryString)
-      const response = await fetchEnergyData({ databaseName, queryString });
-      // The value we return becomes the `fulfilled` action payload
-      return response;
-    }
-  );
+  "tool/fetchEnergyData",
+  async ({ databaseName, queryString }) => {
+    console.log(databaseName, queryString);
+    const response = await fetchEnergyData({ databaseName, queryString });
+    // The value we return becomes the `fulfilled` action payload
+    return response;
+  }
+);
 
 export const initalDataSlice = createSlice({
   name: "tool",
@@ -59,6 +73,13 @@ export const initalDataSlice = createSlice({
         state.status = "idle";
         state.data = action.payload;
       })
+      .addCase(initalHeatmapDataAsync.pending, (state) => {
+        state.status = "loading";
+      })
+      .addCase(initalHeatmapDataAsync.fulfilled, (state, action) => {
+        state.status = "idle";
+        state.data = action.payload;
+      })
       .addCase(copDataAsync.pending, (state) => {
         state.status = "loading";
       })
@@ -72,7 +93,7 @@ export const initalDataSlice = createSlice({
       .addCase(energyDataAsync.fulfilled, (state, action) => {
         state.status = "idle";
         state.energyData = action.payload;
-      })
+      });
   },
 });
 
