@@ -1,4 +1,4 @@
-export default DefaultChartOption = {
+export default {
   title: {
     text: "TEST",
     show: true,
@@ -7,7 +7,7 @@ export default DefaultChartOption = {
     textStyle: {
       color: "#000000",
       fontStyle: "normal", // 'normal', 'italic', 'oblique'
-      fontWeight: "bold", // 'normal', 'bold', 'bolder', 'lighter'
+      fontWeight: "normal", // 'normal', 'bold', 'bolder', 'lighter'
       fontFamily: "serif", // 'sans-serif'
       fontSize: 18,
       lineHeight: 56,
@@ -46,7 +46,7 @@ export default DefaultChartOption = {
   legend: {
     type: "scroll", // "plain" ,"scroll"
     show: true,
-    zlevel: 999,
+    // zlevel: 999,
     left: "center", // 'left', 'center', or 'right'
     top: "bottom", // 'top', 'middle', or 'bottom'
     right: "auto",

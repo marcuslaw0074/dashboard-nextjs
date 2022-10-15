@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "query": {
+        "url": "http://192.168.100.214:9000/brickapi/v1/graphql/async",
+        "method": "post",
+        "params": {
+          "query": "query ($limit: Int!, $database: String!, $measurement: String!) { point1: timeseriesbyprefername(limit: $limit, database: $database, measurement: $measurement, pointName: \"AHU-05-01.Water Supply Temperature.Value\") { prefername time value } point2: timeseriesbyprefername(limit: $limit, database: $database, measurement: $measurement, pointName: \"AHU-05-01.Water Return Temperature.Value\") { prefername time value } }",
+          "variables": {
+            "limit": 10,
+            "database": "ArupDemo",
+            "measurement": "OTP"
+          }
+        }
+      }
+    },
+    {
+      "query": {
+        "url": "http://192.168.100.214:9000/brickapi/v1/graphql/async",
+        "method": "post",
+        "params": {
+          "query": "query ($limit: Int!, $database: String!, $measurement: String!) { point1: timeseriesbyprefername(limit: $limit, database: $database, measurement: $measurement, pointName: \"AHU-06-01.Water Supply Temperature.Value\") { prefername time value } point2: timeseriesbyprefername(limit: $limit, database: $database, measurement: $measurement, pointName: \"AHU-06-01.Water Return Temperature.Value\") { prefername time value } }",
+          "variables": {
+            "limit": 10,
+            "database": "ArupDemo",
+            "measurement": "OTP"
+          }
+        }
+      }
+    },
+    {
+      "query": {
+        "url": "http://192.168.100.214:9000/brickapi/v1/graphql/async",
+        "method": "post",
+        "params": {
+          "query": "query ($limit: Int!, $database: String!, $measurement: String!) { point1: timeseriesbyprefername(limit: $limit, database: $database, measurement: $measurement, pointName: \"AHU-07-01.Water Supply Temperature.Value\") { prefername time value } point2: timeseriesbyprefername(limit: $limit, database: $database, measurement: $measurement, pointName: \"AHU-07-01.Water Return Temperature.Value\") { prefername time value } }",
+          "variables": {
+            "limit": 10,
+            "database": "ArupDemo",
+            "measurement": "OTP"
+          }
+        }
+      }
+    }
+  ]
+}
